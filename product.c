@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include <time.h>
 
+//I use long long because the final number will be 10^14
 long long multi(int x,int y){
 	
 	return (long long)x*y;
