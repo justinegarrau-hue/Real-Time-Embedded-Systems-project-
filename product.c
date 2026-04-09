@@ -2,15 +2,14 @@
 #include <stdio.h>
 #include <time.h>
 
-//I use long long because the final number will be 10^14
-long long multi(int x,int y){
+int multi(int x,int y){
 	
-	return (long long)x*y;
+	return (int)x*y;
 	}
 
 int main(){
 	srand(time(NULL));
-	volatile long long a;
+	int long long a;
 	for (int i =0; i<10000000; i++){ 	
 		int x = rand() %10000000 +100000 ;
 		int y = rand() %10000000 +100000 ;
