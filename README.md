@@ -1,4 +1,4 @@
-# project_info_temps_reel
+# Real-Time embededd systems Project
 
 Code informations :
 
