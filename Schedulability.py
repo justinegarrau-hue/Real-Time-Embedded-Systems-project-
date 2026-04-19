@@ -1,4 +1,4 @@
-#SCHEDUABILITY
+
 #%%
 from itertools import permutations
 import matplotlib.pyplot as plt
