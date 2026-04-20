@@ -7,5 +7,5 @@ The c code product.c contains a function which calculate the product between two
 The python code result.py exectute product.c 10 000 times and save the execution time of each iteration in a texte file.
 It is quite long to execute and see the results. 
 
-The #SCHEDUABILITY.py python code contains 4 cells. Each cell calculate non-preemptive schedule for a number of tasks. I start with 3 tasks and I add one task by one for the other cells. 
-To obtain the final schedule, please run the last cell. 
+The schedulability.py python code contains 3. The second cell calculate non-preemptive schedule for a number of tasks, please choose between 3 and 7 tasks.You can start by 3 tasks and add one task by one. The third cell calculate non-preemptive schedule for 7 tasks and allows task 5 to miss its deadline. 
+
